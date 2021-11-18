@@ -5,6 +5,10 @@
 //
 // Partially inspired in Open3D/cpp/utility/Timer.h
 #pragma once
+
+#ifndef FMT_HEADER_ONLY
+#define FMT_HEADER_ONLY
+#endif
 #include <fmt/core.h>
 
 #include <chrono>
